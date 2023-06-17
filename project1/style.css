@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(241, 238, 233);
+  font-family: sans-serif;
+  /* border-top: 5px solid rgb(153, 99, 17); */
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  border: 1px solid rgb(207, 207, 207);
+}
+
+.main-header {
+  background-color: #fdfdfd;
+
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-style: italic;
+  color: rgb(97, 65, 18);
+}
+h1::first-letter {
+  font-style: normal;
+}
+nav {
+  font-size: 18px;
+  margin-right: 10px;
+}
+nav a:link,
+a:visited {
+  text-decoration: none;
+  padding-right: 10px;
+  color: brown;
+}
+nav a:hover,
+a:active {
+  text-decoration: underline solid rgb(42, 106, 165);
+  padding-right: 10px;
+  color: rgb(42, 106, 165);
+}
+.post-header {
+  text-align: center;
+  background-image: url(images/img1.jpg);
+
+  background-size: cover;
+  height: 450px;
+  padding-top: 80px;
+  color: #fdfdfd;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 90px;
+  margin-bottom: 10px;
+}
+.meal {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.timing {
+  font-size: 25px;
+  font-style: italic;
+  margin-bottom: 60px;
+}
+
+.order:link,
+.order:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+
+  color: rgb(97, 65, 18);
+  background-color: rgb(241, 238, 233);
+  padding: 15px 20px;
+}
+.order:hover {
+  background-color: rgb(97, 65, 18);
+  color: rgb(241, 238, 233);
+}
+.detail {
+  text-align: center;
+  background-color: antiquewhite;
+  padding: 40px;
+}
+.worthy {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+span {
+  color: rgb(97, 65, 18);
+}
+.meal-info {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.view-detail:link,
+.view-detail:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+
+  color: rgb(241, 238, 233);
+  background-color: rgb(97, 65, 18);
+  padding: 15px 20px;
+}
+
+.view-detail:hover,
+.view-detail:active {
+  background-color: rgb(207, 175, 136);
+  color: rgb(97, 65, 18);
+}
+.fast-food {
+  display: flex;
+  gap: 30px;
+  text-align: left;
+  background-color: #ffffff;
+}
+.pasta {
+  width: 50%;
+}
+.title1 {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.detail1 {
+  margin: 25px 0;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: left;
+}
+.traditional-food {
+  display: flex;
+  gap: 30px;
+  text-align: right;
+  background-color: #ffffff;
+}
+.desi {
+  width: 50%;
+}
+.title2 {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.detail2 {
+  margin: 25px 0;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: right;
+}
+
+.facility img {
+  width: 100%;
+}
+.facility {
+  display: inline-block;
+  width: 37%;
+  padding: 0 0 20px;
+  margin: 0px 0px 20px 90px;
+  text-align: center;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.f1 {
+  float: left;
+}
+.facilities {
+  background-color: antiquewhite;
+}
+.facilities h2 {
+  text-align: center;
+  font-size: 35px;
+  /* margin: 30px 0; */
+  padding: 30px;
+}
+.facility-detail {
+  margin: 20px 0px;
+}
+.facility-detail h3 {
+  font-size: 26px;
+  font-weight: bold;
+  padding: 10px;
+
+  color: rgb(97, 65, 18);
+}
+.facility-detail p {
+  font-size: 20px;
+  padding: 23px 5px;
+
+  line-height: 2;
+}
+.facility-detail a {
+  margin-left: 5px;
+}
